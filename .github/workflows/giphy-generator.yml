@@ -6,7 +6,7 @@ on:
   pull_request:
     types: [opened, edited]
   issue_comment:
-    types: [opened, edited]\
+    types: [opened, edited]
 jobs:
   giphy-generator:
     runs-on: ubuntu-latest
